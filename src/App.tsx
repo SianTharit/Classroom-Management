@@ -21,7 +21,6 @@ import {dataProviders} from "@/providers/data.ts";
 function App() {
   return (
     <BrowserRouter>
-      <GitHubBanner />
       <RefineKbarProvider>
         <ThemeProvider>
           <DevtoolsProvider>
